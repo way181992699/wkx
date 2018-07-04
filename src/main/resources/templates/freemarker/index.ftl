@@ -6,8 +6,12 @@
 </head>
 <body>
 FreeMarker模板引擎
-<h1>${data.name}</h1>
-<h1>${data.website}</h1>
-<h1>${data.language}</h1>
+<script>
+
+    var a = ${data.myname};
+alert(a)
+</script>
+<h1>${data.myname}</h1>
+<h1></h1>
 </body>
 </html>

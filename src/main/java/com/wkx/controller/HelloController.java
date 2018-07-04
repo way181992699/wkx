@@ -1,7 +1,6 @@
 package com.wkx.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +12,7 @@ import com.wkx.pojo.OneSelf;
 public class HelloController {
 		
 			@RequestMapping("/oneSelf")
-			public JSONResult oneSelf() {
+			public JSONResult oneSelf(){
 				OneSelf o =  new OneSelf();
 				o.setAge(18);
 				o.setName("July");
